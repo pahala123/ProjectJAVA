@@ -1,0 +1,7 @@
+How to run website :
+
+1. Add in pom.xml Dependecies
+	- jstl	(Group Id : javax.servlet , Artifact Id : jstl)
+	- javax.servlet-api	(Group Id : javax.servlet , Artifact Id : javax.servlet-api)
+
+and the URL is (Localhost:port/student)

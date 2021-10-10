@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-mapping>
+	<class name="com.itdel.POJOS.E_commerce" table="E_commerce">
+		<id name="id_barang" column="id_barang" type="int">
+		</id>
+		<property name="nama_barang">
+			<column name="nama_barang"/>
+		</property>
+		<property name="jenis_barang">
+			<column name="jenis_barang"/>
+		</property>
+	</class>
+</hibernate-mapping>
